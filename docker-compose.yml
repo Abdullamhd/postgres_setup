@@ -20,7 +20,7 @@ services:
     container_name: pgadmin
     image: dpage/pgadmin4:latest
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@localhost
+      PGADMIN_DEFAULT_EMAIL: localhost@localhost.com
       PGADMIN_DEFAULT_PASSWORD: 123456
     ports:
       - 5050:80
